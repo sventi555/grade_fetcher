@@ -84,6 +84,8 @@ def main():
         print(label.text + ' - ' + mark.text)
         print('----------------------')
 
+    driver.quit()
+
 
 if __name__ == "__main__":
     main()
